@@ -3,7 +3,7 @@
 This script makes use of the UCI data set gathered from Samsung Galaxy S smartphone accelerometers.
 The data can be downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# Instructions for Use:
+# Instructions for Use
 1. Download dataset .zip file.
 2. Extract .zip file to your working directory. This will produce a subfolder in your working directory called 'UCI HAR Dataset' that will contain all required data files and information about the original data set. Leave all files in this directory.
 3. Run 'run_analysis.R' (from this repository) in R Studio
