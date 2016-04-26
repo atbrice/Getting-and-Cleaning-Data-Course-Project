@@ -9,7 +9,7 @@ The data can be downloaded here: https://d396qusza40orc.cloudfront.net/getdata%2
 3. Run 'run_analysis.R' (from this repository) in R Studio
 
 # Output
-The 'run_analysis.R' script will produce two output items:
+The 'run_analysis.R' script will produce three output items:
 
 1. A data frame in R Studio called 'combinedMeanStd'
 2. A data frame in R Studio called 'ActSubMeans'
