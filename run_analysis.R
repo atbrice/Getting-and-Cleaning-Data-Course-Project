@@ -99,7 +99,7 @@ combined<-rbind(test,train)
 
 ## 2. EXTRACT MEAN AND STANDARD DEVIATION MEASUREMENTS
 library(stringr)
-combinedMeanStd<-cbind(combined[str_detect(names(combined), "mean")],combined[str_detect(names(combined), "std")])
+combinedMeanStd<-cbind(combined[,1:3],combined[str_detect(names(combined), "mean")],combined[str_detect(names(combined), "std")])
 
 ## 5. CREATE DATA SET WITH AVERAGE OF EACH VARIABLE FOR EACH ACTIVITY AND AVERAGE OF EACH VARIABLE FOR EACH SUBJECT
 ActSubMeans<-rbind(aggregate(combined[, 4:1716], list(combined$aID), mean),aggregate(combined[, 4:1716], list(combined$Subject), mean))
