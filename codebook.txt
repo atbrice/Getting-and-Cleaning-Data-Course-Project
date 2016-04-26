@@ -1,6 +1,19 @@
 CODEBOOK
 
-Generally speaking, variable names from the original data set are unchanged. The descriptions of the headings for columns 2:562 can be found in the file 'features_info.txt' included with the data set.
+Generally speaking, variable names from the original data set are unchanged. 
+
+For combinedMeanStd data frame:
+COLUMN 1: "type"
+        Indicates whether the data is from the 'test' or 'train' dataset.
+COLUMN 2: "Subject" 
+        Indicates the subject performing the activity.
+COLUMN 3: "aID"
+        Descriptive value indicating the activity being performed.
+COLUMNS 4 to 82: 
+        Correspond to variables found in found in the file 'features_info.txt' included with the original data set.
+
+For ActSubMeans data frame:
+The descriptions of the headings for columns 2:562 can be found in the file 'features_info.txt' included with the original data set.
 
 The exceptions in the output 'ActSubMeans' data frame and corresponding 'Activity and Subject Means.txt' are as follows:
 COLUMN 1: "aID (descriptive) or Subject (numeric)"
