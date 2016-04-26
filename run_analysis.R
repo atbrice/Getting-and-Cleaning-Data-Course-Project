@@ -109,7 +109,6 @@ write.table(ActSubMeans,file="./Activity and Subject Means.txt",row.names = F)
 ## Cleanup
 rm(activityLabels)
 rm(combined)
-rm(combinedMeanStd)
 rm(features)
 rm(test,testBAx,testBAy,testBAz,testBGx,testBGy,testBGz,testSubject,testTAx,testTAy,testTAz,testX,testY,testYaID)
 rm(train,trainBAx,trainBAy,trainBAz,trainBGx,trainBGy,trainBGz,trainSubject,trainTAx,trainTAy,trainTAz,trainX,trainY,trainYaID)
