@@ -1,13 +1,13 @@
 CODEBOOK
 
-Generally speaking, variable names from the original data set are unchanged. The descriptions of the headings for columns 2:562 can be found in the original codebook included with the data set.
+Generally speaking, variable names from the original data set are unchanged. The descriptions of the headings for columns 2:562 can be found in the file 'features_info.txt' included with the data set.
 
 The exceptions in the output 'ActSubMeans' data frame and corresponding 'Activity and Subject Means.txt' are as follows:
 COLUMN 1: "aID (descriptive) or Subject (numeric)"
-        This column contains descriptive names for the 6 specific activities perfomed         and numeric values indicating the subject performing activities.
+        This column contains descriptive names for the 6 specific activities perfomed and numeric values indicating the subject performing activities.
 COLUMNS 563 to 1714:
         These 1152 columns are the inclusion of the 'Inertial Signals' data.
-        There are 128 columns, representing 128 measurements, per set of data spanning         9 sets (9*128=1152).
+        There are 128 columns, representing 128 measurements, per set of data spanning 9 sets (9*128=1152).
         The following is the order the sets of 128 are included in, from left to right:
         1] BAx1:BAx128 are the Body Acceleration x-axis values
         2] BAy1:BAy128 are the Body Acceleration y-axis values
